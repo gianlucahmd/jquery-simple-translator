@@ -16,4 +16,4 @@ Simple client-side translator using jQuery, javascript, and a single .json file 
 * create a `text.json` file with your text, using as keys the same tags as in `text_id`, appending and underscore + the language code (example: `text_es` for spanish).
 * the code automatically detets the language of the user's browser. However, it's good practice to give the user the chance to change it (you never know...). You can do that by making an HTML button or link that calls `populate_textfields(JSONtext, 'language_code')`.
 
-For a full functioning example, check out the `index.html` and `text.json` in this repository.
+For a full functioning example, check out the `index.html` and `text.json` in this repository, or try it using this [codepen](https://codepen.io/gianlucahmd/pen/MJvzvQ).
